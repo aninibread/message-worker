@@ -33,7 +33,7 @@ export default {
 		const ip = request.headers.get('CF-Connecting-IP');
   
 		try {
-		  // Retrieve existing message to check IP address
+		  // Retrieve existing message to check IP addresses
 		  const existingMessage = await getCache(messageId);
 		  if (existingMessage) {
 			const existingData = JSON.parse(existingMessage);
