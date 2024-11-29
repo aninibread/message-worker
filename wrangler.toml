@@ -15,6 +15,12 @@ id = "9f946ad699904f918f52a365a5c8137c"
  [placement]
  mode = "smart"
 
+	# wrangler.toml (wrangler v3.88.0^)
+[observability.logs]
+enabled = true
+
+
+
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Docs:
 # - https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
